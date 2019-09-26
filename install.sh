@@ -6,7 +6,7 @@ apt-get install python ffmpeg
 pip3 install youtube-dl
 
 clear
-git clone https://github.com/tonmoy-islam/bashtube.git $PREFIX/share/doc/
+git clone https://github.com/tonmoy-islam/bashtube.git $PREFIX/share/doc/bashtube/
 cd $PREFIX/share/doc/bashtube/ && chmod 770 *
 mv bashtube $PREFIX/bin/
 cd ~
